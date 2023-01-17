@@ -1,0 +1,162 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0.15px;
+}
+@font-face {
+  font-family: "Schoolbell";
+  src: url(../fonts/Schoolbell-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url(../images/fon.png);
+  height: 1140px;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  background-image: url(../images/fon.png);
+}
+nav .navbar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.logo-p {
+  height: 36px;
+}
+.menyu {
+  margin: 0 auto;
+}
+.li-a {
+  font-size: 18px;
+  list-style-type: none;
+  display: inline-block;
+}
+.text {
+  color: #a1b5bb;
+  padding: 0px 25px;
+  font-family: "Inter";
+}
+.about {
+  padding-left: 25px;
+}
+.home {
+  text-decoration: underline;
+}
+.btn {
+  /* display: block ; */
+  flex-direction: row-reverse;
+}
+.bt1 {
+  color: white;
+  width: 140px;
+  height: 58px;
+  background: #145e76;
+  border-radius: 25px;
+  border: none;
+}
+.bt1:hover {
+  box-shadow: 0px 0px 10px 3px;
+}
+.boshi {
+  display: flex;
+}
+.musa {
+  width: 50%;
+  height: 730px;
+  margin-top: 135px;
+}
+.men {
+  width: 50%;
+  height: 730px;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.hey {
+  width: 195px;
+  height: 65px;
+  background: #094556;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: "Schoolbell";
+  font-size: 24px;
+}
+.hey:hover {
+  box-shadow: 0px 0px 10px 3px white;
+}
+.brands {
+  margin-top: 40px;
+}
+.building {
+  font-family: "Inter";
+  font-size: 64px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.boshi,
+p {
+  margin-top: 30px;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #849499;
+}
+.header-btn {
+  margin-top: 50px;
+}
+.hire-me {
+  width: 137px;
+  height: 61px;
+  background: #ffa63a;
+  border-radius: 25px;
+  border: none;
+  font-family: "Inter";
+  font-size: 18px;
+  color: white;
+}
+
+.hire-me:hover {
+  box-shadow: inset 0px 0px 16px 16px #f3b86f;
+}
+.my-work {
+  width: 137px;
+  height: 61px;
+  background: none;
+  border-radius: 25px;
+  border: none;
+  font-family: "Inter";
+  font-size: 18px;
+  color: white;
+}
+@media only screen and (max-width: 1000px) {
+  .btn {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .men{
+    display: none;  
+  }
+  .musa {
+    width: 700px;
+   text-align: center;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .menyu {
+    margin-right: 10px;
+  }
+}

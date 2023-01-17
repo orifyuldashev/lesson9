@@ -1,0 +1,281 @@
+@import url(./footer.css);
+@import url(./header.css);
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #fff;
+}
+.statistika {
+  position: relative;
+  bottom: 162px;
+  width: 1170px;
+  height: 323px;
+  background: #e5e5e5;
+  margin: 0 auto;
+  box-shadow: -3px 6px 10px rgb(188, 188, 188);
+  border-radius: 30px;
+}
+.stat {
+  font-family: "Inter";
+  font-size: 24px;
+  color: #265a6a;
+  text-align: center;
+  padding-top: 64px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 79px;
+}
+.sonlar {
+  font-size: 48px;
+  color: #08546c;
+}
+.project {
+  font-family: "Inter";
+  color: #08546c;
+}
+@media (max-width: 1000px) {
+  .statistika {
+    width: 400px;
+    height: 910px;
+  }
+  .box {
+    flex-direction: column;
+    /* display: inline-block; */
+  }
+  .project {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+.servisec {
+  text-align: center;
+}
+.servisec1 {
+  font-family: "Schoolbell";
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #265a6a;
+}
+.servisec2 {
+  font-family: "Inter";
+  font-size: 45px;
+  margin-top: 30px;
+  color: #08546c;
+}
+.box2 {
+  display: flex;
+  margin-top: 70px;
+}
+.blok1 {
+  width: 50%;
+  display: flex;
+}
+.design {
+  margin: 0px 13px;
+  width: 50%;
+  height: 273px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+.design:hover{
+  background: #08546c;
+}
+.ui {
+  font-family: "Inter";
+  font-size: 24px;
+  padding-top: 25px;
+  padding-left: 30px;
+  color: #0f1221;
+}
+.design-p {
+  padding-left: 30px;
+}
+.web {
+  margin: 0px 13px;
+  width: 50%;
+  height: 273px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+.web:hover{
+  background: #08546c;
+}
+.langar {
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.web-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.blok2 {
+  width: 50%;
+  display: flex;
+}
+.visual {
+  margin: 0px 13px;
+  width: 50%;
+  height: 273px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+.visual:hover{
+  background: #08546c;
+}
+.app {
+  margin: 0px 13px;
+  width: 50%;
+  height: 273px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+.app  :hover{
+  background: #08546c;
+}
+@media (max-width: 1000px) {
+  .box2 {
+    flex-direction: column;
+  }
+  .blok1 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .blok2 {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+.featured {
+  margin-top: 200px;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 45px;
+  color: #08546c;
+}
+.featured1 {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #757575;
+  margin-top: 10px;
+}
+.portfailo {
+  display: flex;
+  margin-top: 60px;
+}
+.portfailo-1 {
+  width: 50%;
+  margin-left: 30px;
+}
+.portfailo-2 {
+  width: 50%;
+  margin-left: 30px;
+}
+.website {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 30px;
+  color: #08546c;
+  margin-top: 40px;
+}
+.our {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #757575;
+  display: inline-block;
+}
+.read {
+  display: inline-block;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #08546c;
+}
+.readd {
+  display: inline-block;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #08546c;
+}
+@media (max-width: 1000px) {
+  .portfailo {
+    flex-direction: column;
+  }
+  .portfailo-1 {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .portfailo-2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+  }
+}
+.read:hover{
+  color: #ffa800;
+
+  
+}
+.readd:hover{
+  color: #ffa800;
+
+}
+
+.botom {
+  background-image: url(../images/fon.png);
+  width: 100%;
+  height: 730px;
+  margin-top: 200px;
+  display: flex;
+}
+.brat {
+  width: 50%;
+}
+.tutuq {
+  width: 50%;
+}
+.fon {
+  width: 95%;
+  height: 526px;
+  margin-top: 102px;
+  margin-left: 60px;
+}
+.tutuqq {
+  width: 110px;
+  margin-top: 150px;
+  height: 130px;
+}
+.design-p1 {
+  margin-left: 30px;
+  font-family: "Inter";
+  font-size: 16px;
+  max-width: 550px;
+  color: #ffffff;
+}
+.brat {
+  display: block;
+}
+@media (max-width: 1000px) {
+  .bottom {
+    flex-direction: column;
+  }
+}
